@@ -10,6 +10,7 @@ int eval(){
         return val;
     }
 
+    //沒有讀到數字，會從緩衝區抓剛剛的輸入資料
     scanf("%c", &c);
     if(c == 'f'){
         x = eval();
